@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	height: 50px;
+	line-height: 50px;
+	background: #2f80d1;
+}
+.logo{
+	float: left;
+	margin: 0px 20px;
+}
+.navlist{
+	float: left;
+	color: beige;
+}
+.navlist a{
+	color: white;
+	text-decoration: none;
+}
+.rightnav{
+	float: right;
+	font-size: 0px;
+}
+.icon1,.icon2,.icon3{
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: -10px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/download.png) -40px -0px;
+}
+.icon2{
+	background: url(../img/download.png) -40px -40px;
+}
+.icon3{
+	width: 43px;
+	height: 50px;
+	top: 0px;
+	background: url(../img/aa.png) ;
+}
+.box1{
+	height: 30px;
+	padding-left: 20px;
+	line-height: 30px;
+	background: #f9f9f7;
+	border-bottom: solid 1px #ccc;
+}
+.leftnav{
+	background: #f9f9f7;
+	width: 150px;
+	overflow: hidden;
+	float: left;
+	height: calc(100vh - 80px);
+	border-right: solid 1px #ccc;
+}
+.leftnav li{
+	height: 32px;
+	line-height: 32px;
+	margin-top: 30px;
+}
+.leftnav i{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+	position: relative;
+	top: -1px;
+	width: 36px;
+	height: 37px;
+	background: url(../img/ii.gif) 0px -0px/100%;
+}
+.leftnav li:nth-child(1) i{
+	background: url(../img/ii.gif) 0px -0px/100%;
+}
+.leftnav li:nth-child(2) i{
+	background: url(../img/ii.gif) 0px -60px/100%;
+}
+.leftnav li:nth-child(3) i{
+	background: url(../img/ii.gif) 0px -126px/100%;
+}
+.leftnav li:nth-child(4) i{
+	background: url(../img/ii.gif) 0px -191px/100%;
+}
+.leftnav li:nth-child(5) i{
+	background: url(../img/ii.gif) 0px -254px/100%;
+}
+.leftnav li:nth-child(6) i{
+	background: url(../img/ii.gif) 0px -316px/100%;
+}
+.leftnav li:nth-child(7) i{
+	background: url(../img/ii.gif) 0px -574px/100%;
+}
+.leftnav a{
+	color: black;
+	text-decoration: none;
+}
+.notice1{
+	height: 30px;
+	line-height: 30px;
+	width: calc(100% - 150px);
+	padding-left: 50px;
+	background: #f9f9f7;
+	color: blue;
+	overflow: hidden;
+	float: left;
+	border-bottom: solid 1px #ccc;
+}
+.p1{
+	float: left;
+}
+.notice2{
+	float: left;
+	position: relative;
+	top: 0px;
+	animation: mynotice2 6s infinite;
+}
+@keyframes mynotice2{
+	0%{top: 0px;}
+	25%{top: -30px;}
+	50%{top: -30px;}
+	75%{top: -60px;}
+	100%{top: -60px;}
+}
+.content{
+	width: calc(100% - 150px);
+	float: left;
+	height: calc(100vh - 110px);
+	background: peachpuff;
+}
+.right{
+	width: 200px;
+	height: calc(100vh - 50px);
+	background: gold;
+	position: fixed;
+	right: -200px;
+	top: 50px;
+	transition: all 1s;
+}
+.fo{
+	display: block;
+	margin: 90px auto 20px;
+}
+.fo span{
+	width: 300px;
+	display: block;
+	margin: 20px auto 20px;
+	
+}
+.fo span input{
+	height: 25px;
+	text-indent: 10px;
+	border-radius: 10px;
+}
+.su{
+	display: inline-block;
+	margin: 0 auto;
+	border-radius: 5px;
+	height: 25px;
+	width: 60px;
+	line-height: 25px;
+	margin-left: 45%;
+	margin-top: 20px;
+}
+.su:hover{
+	background: #AFEEEE;
+}
+.h{
+	border: 0px solid black;
+	width: 200px;
+	
+}
+.hf .o{
+	height: 25px;
+	width: 200px;
+	margin-bottom: 20px;
+}
+.hf textarea{
+	margin-left: 37px;
+}
+
+.hf{
+	border: solid 0px black;
+	width: 280px;
+	margin-left: 25%;
+	position: relative;
+}
+.con{
+	position: absolute;
+	display: inline-block;
+	bottom: 158px;
+}
+.qud{
+	width: 60px;
+	height: 25px;
+	margin-left: 78%;
+}
+.xx{
+	margin: 50px auto 50px;
+	width: 280px;
+	border: solid 0px black;
+	letter-spacing: 5px;
+}
+.xx span{
+	height: 25px;
+	display: inline-block;
+	padding-top: 10px;
+}

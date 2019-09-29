@@ -1,0 +1,367 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box a {
+	text-decoration: none;
+	color: black;
+	height: 130px;
+	width: 130px;
+	display: inline-block;
+	border: solid 1px pink;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 130px;
+	margin-top: 10%;
+	margin-left: 10%;
+	transition: all 1s;
+	background-color: pink;
+}
+
+.box a:hover {
+	background-color: mediumspringgreen;
+	border-color: mediumspringgreen;
+}
+
+.dh {
+	width: 60%;
+	border: solid 0px black;
+	margin: 0 auto;
+	display: block;
+}
+
+.dh a {
+	text-decoration: none;
+	color: black;
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	border: solid 1px pink;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 50px;
+	transition: all 1s;
+	background-color: pink;
+}
+
+.dh a:hover {
+	background-color: mediumspringgreen;
+	border-color: mediumspringgreen;
+}
+
+.box2 a {
+	text-decoration: none;
+	color: black;
+	height: 130px;
+	width: 130px;
+	display: inline-block;
+	border: solid 1px pink;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 130px;
+	margin-top: 10%;
+	margin-left: 17%;
+	transition: all 1s;
+	background-color: pink;
+}
+.box2 span {
+	text-decoration: none;
+	color: black;
+	height: 130px;
+	width: 130px;
+	display: inline-block;
+	border: solid 1px pink;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 130px;
+	margin-top: 10%;
+	margin-left: 17%;
+	transition: all 1s;
+	background-color: pink;
+	cursor: pointer;
+}
+
+.leftn {
+	text-decoration: none;
+	color: black;
+	width: 200px;
+	height: 500px;
+	border: solid 0px black;
+	display: inline-block;
+	float: left;
+	
+}
+
+.leftn a {
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 120px;
+	border: solid 1px paleturquoise;
+	margin-left: 30px;
+	text-decoration: none;
+	margin-top: 100px;
+	line-height: 35px;
+	border-radius: 8px;
+	transition: all 1s;
+	background-color: paleturquoise;
+}
+.leftn span{
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 120px;
+	border: solid 1px paleturquoise;
+	margin-left: 30px;
+	text-decoration: none;
+	margin-top: 100px;
+	line-height: 35px;
+	border-radius: 8px;
+	transition: all 1s;
+	background-color: paleturquoise;
+	cursor: pointer;
+}
+
+.leftn a:hover{
+	background-color: mediumspringgreen;
+	border: mediumspringgreen;
+}
+
+.showtab {
+	float: left;
+	border: solid 1px black;
+	width: 70%;
+	margin-top: 20px;
+}
+
+
+.showtab table {
+	margin: 50px auto 10px;
+	width: 80%;
+	text-align: center;
+}
+
+.showtab tr {
+	height: 35px;
+}
+
+.dt {
+	width: 80%;
+	text-align: center;
+	margin: 20px auto 10px;
+}
+
+.dt a {
+	display: inline-block;
+	text-align: center;
+	height: 20px;
+	width: 20px;
+	border: solid 1px black;
+	line-height: 20px;
+	text-decoration: none;
+	margin-left: 2px;
+	border-radius: 2px;
+	transition: all 1s;
+}
+
+.dt a:hover {
+	background-color: mediumspringgreen;
+	border: mediumspringgreen;
+}
+
+.addLi {
+	float: left;
+	height: 400px;
+	width: 500px;
+	margin: 40px auto 20px;
+	position: relative;
+	margin-left: 200px;
+}
+
+.addLi .qx {
+	position: absolute;
+	display: block;
+	margin: auto;
+	left: 100px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.te {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 170px;
+}
+
+.de {
+	position: absolute;
+	left: 100px;
+	top: 110px;
+}
+
+.pu {
+	height: 25px;
+	width: 190px;
+}
+
+.st {
+	background-color: pink;
+	height: 25px;
+	width: 50px;
+	border: none;
+	position: absolute;
+	left: 66%;
+	bottom: 17%;
+}
+
+.slimit {
+	height: 400px;
+	width: 300px;
+	border: solid 0px black;
+	overflow: auto;
+	margin: 60px auto 10px;
+}
+
+.slimit span {
+	height: 30px;
+	display: block;
+}
+
+.sd{	
+	display: none;
+		
+	
+}
+.hid{
+	position: relative;
+	z-index: -1;
+	background-color: #F9F9F7;
+	
+}
+.s{
+	width: 500px;
+	height: 400px;
+	background-color: pink;
+	display: block;
+	top: 200px;
+	left: 30%;
+	position: absolute;
+	overflow: auto;
+    z-index: 5;
+}
+.clo{
+	float: right;
+}
+.clo:hover{
+	cursor: pointer;
+}
+.yb{
+	position: relative;
+	z-index: 1;
+}
+.sele{
+	height: 200px;
+	width: 180px;
+	margin: 30px auto 20px;
+	border: solid 0px black;
+}
+.sele select{
+	display: inline-block;
+	margin-top: 30px;
+}
+.stj{
+	display: block;
+	margin-left: 50%;
+	margin-top: 20px;
+	height: 25px;
+	width: 50px;
+}
+.box3{
+	
+		text-decoration: none;
+	color: black;
+	width: 200px;
+	height: 500px;
+	
+	display: inline-block;
+	
+	border: solid 0px black;
+}
+.box3 a {
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 120px;
+	border: solid 1px paleturquoise;
+	margin-left: 30px;
+	text-decoration: none;
+	margin-top: 100px;
+	line-height: 35px;
+	border-radius: 8px;
+	transition: all 1s;
+	background-color: paleturquoise;
+}
+.box3 span {
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 120px;
+	border: solid 1px paleturquoise;
+	margin-left: 30px;
+	margin-top: 100px;
+	line-height: 35px;
+	border-radius: 8px;
+	transition: all 1s;
+	background-color: paleturquoise;
+	cursor: pointer;
+}
+
+.tb{
+	position: absolute;
+	width: 70%;
+	margin: 0 auto;
+	border: solid 0px black;
+	text-align: center;
+	top: 250px;
+	right: 130px;
+}
+.tb table{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.updat{
+	width: 430px;
+	height: 430px;
+	border: solid 1px black;
+	position: absolute;
+	top: 200px;
+	left: 40%;
+	background-color: #CCCCCC;
+}
+.updat span{
+	display: block;
+	height: 25px;
+}
+.shoLi{
+	width: 300px;
+	height: 250px;
+	border: solid 0px black;
+	margin-left: 40px;
+	margin-top: -20px;
+	overflow: auto;
+	background-color: #CCCCCC;
+	border-radius: 8px;
+}
+.shoLi input{
+	display:inline-block;
+}
+.bn{
+	display: block;
+	height: 25px;
+	width: 50px;
+	margin-top: 30px;
+	margin-left: 280px;
+}

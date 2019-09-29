@@ -1,0 +1,20 @@
+.content a{
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border: solid 1px pink;
+	text-align: center;
+	line-height: 150px;
+	margin-left: 15%;
+	margin-top: 5%;
+	background: cornflowerblue;
+	border-radius: 20px;
+	color: black;
+	transition: all 1s;
+}
+.content a:hover{
+	background: pink;
+	color: blue;
+
+}

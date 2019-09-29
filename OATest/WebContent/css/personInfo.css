@@ -1,0 +1,41 @@
+.per{
+	width: 75%;
+	
+	margin: 50px auto 0px;
+	
+}
+.per table tr{
+	height:20px;
+	width: 80%;
+
+
+}
+.per table{
+	text-align: left;
+}
+table img{
+	vertical-align: middle;
+	height: 50px;
+	width: 50px;
+}
+.per a{
+	display: inline-block;
+	height: 25px;
+	width: 80px;
+	border: solid 1px blueviolet;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 10px;
+	margin-left: 45%;
+	transition: all 1s;
+}
+.per input{
+	height: 25px;
+	border-radius: 5px;
+	vertical-align: middle;
+	text-indent: 10px;
+}
+.per a:hover{
+	background: #AFEEEE;
+	border: #AFEEEE ;
+}

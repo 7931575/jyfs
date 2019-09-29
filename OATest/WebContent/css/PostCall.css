@@ -1,0 +1,28 @@
+.ta{
+	width: 30%;
+	margin: 10px 300px 10px;
+			border: 0px solid black;
+	
+}
+
+.ta tr{
+	height: 35px;
+	text-align: left;
+
+}
+.te{
+	vertical-align: middle;
+	
+line-height: 35px;
+}
+.tu{
+	height: 20px;
+	width: 60px;border: solid 1px blue;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.tu:hover{
+	background-color: paleturquoise;
+	border: paleturquoise;
+}
